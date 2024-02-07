@@ -1277,7 +1277,7 @@ end
             Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
             Speed = 9000000000000000000000000000000000, -- Percentage, 100 = default Rush speed
             DelayTime = 0,
-            KillRange= 900000000000000000000000000000000000000,-- Time before starting cycles (seconds)
+            KillRange= 900000000000000000090000000000000000000000000000000000000000000000000000000000,-- Time before starting cycles (seconds)
             HeightOffset = 4,
             CanKill = true,
             BreakLights = true,
