@@ -1032,9 +1032,9 @@ end
         local entity = Creator.createEntity({
             CustomName = "Pr!me (a-60)", -- Custom name of your entity
             Model = "rbxassetid://11801716344", -- Can be GitHub file or rbxassetid
-            Speed = 100000, -- Percentage, 100 = default Rush speed
+            Speed = 1000000, -- Percentage, 100 = default Rush speed
             DelayTime = 5,
-            KillRange= 10000,-- Time before starting cycles (seconds)
+            KillRange= 100000,-- Time before starting cycles (seconds)
             HeightOffset = 4,
             CanKill = true,
             BreakLights = true,
@@ -1275,10 +1275,10 @@ end
         local entity = Creator.createEntity({
             CustomName = "Ah 60", -- Custom name of your entity
             Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-            Speed = 900000, -- Percentage, 100 = default Rush speed
+            Speed = 9000000, -- Percentage, 100 = default Rush speed
             DelayTime = 5,
-            KillRange= 900000,-- Time before starting cycles (seconds)
-            HeightOffset = 1,
+            KillRange= 9000000,-- Time before starting cycles (seconds)
+            HeightOffset = 4,
             CanKill = true,
             BreakLights = true,
             BackwardsMovement = true,
@@ -1287,9 +1287,9 @@ end
                 5, -- Time (seconds)
             },
             Cycles = {
-                Min = 100,
-                Max = 100,
-                WaitTime = 2,
+                Min = 300,
+                Max = 300,
+                WaitTime = 0,
             },
             CamShake = {
                 true, -- Enabled
