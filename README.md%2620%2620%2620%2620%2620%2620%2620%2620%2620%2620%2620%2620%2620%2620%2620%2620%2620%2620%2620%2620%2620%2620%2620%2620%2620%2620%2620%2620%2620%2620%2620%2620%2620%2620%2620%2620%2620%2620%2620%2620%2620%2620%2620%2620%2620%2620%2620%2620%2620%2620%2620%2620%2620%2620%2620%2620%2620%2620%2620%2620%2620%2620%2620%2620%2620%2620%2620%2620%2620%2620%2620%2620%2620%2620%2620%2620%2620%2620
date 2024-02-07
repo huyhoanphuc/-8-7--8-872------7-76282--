@@ -1275,9 +1275,9 @@ end
         local entity = Creator.createEntity({
             CustomName = "Ah 60", -- Custom name of your entity
             Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-            Speed = 900000000000000000000000000000000000000000, -- Percentage, 100 = default Rush speed
+            Speed = 90000000000000000000, -- Percentage, 100 = default Rush speed
             DelayTime = 0,
-            KillRange= 900000000000000000000000000000000000000000000000000,-- Time before starting cycles (seconds)
+            KillRange= 90000000000000000000000,-- Time before starting cycles (seconds)
             HeightOffset = 4,
             CanKill = true,
             BreakLights = true,
